@@ -4,15 +4,19 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	
+   
 }
 .order_summary{
     background-color: #ffffff;
-    width:320px ;
     border-radius: 20px;
+    width: 320px;
     padding-bottom: 10px;
     text-align: center;
     line-height: 1.3;
-    margin: auto;
     overflow: hidden;
 }
 .order_summary img{
@@ -21,12 +25,10 @@ body{
 .all_text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 20px;
 }
 .plan{
     display: flex;
-    align-content: space-between;
     align-items: center;
     background-color: rgba(238, 245, 244, 0.5);
     padding: 10px;
